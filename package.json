@@ -1,0 +1,25 @@
+{
+  "name": "context-policy",
+  "version": "0.1.0",
+  "description": "Per-model context compaction policy for the pi coding agent",
+  "keywords": [
+    "pi-package"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somewhat-useful/context-policy.git"
+  },
+  "scripts": {
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.84.2",
+    "@types/node": "^22",
+    "typescript": "^5.6"
+  }
+}
